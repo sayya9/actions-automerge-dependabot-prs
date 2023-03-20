@@ -1,6 +1,6 @@
 # Auto Merge Dependabot Pull Requests
 
-I assume `main` branch is a protection branch, and setting branch protection rules.
+I am assuming `main` branch is a protection branch, and setting branch protection rules.
 
 ## Branch protection rule
 1. In your repository navigation to Settings > Branches
