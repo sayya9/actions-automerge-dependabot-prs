@@ -9,6 +9,8 @@ I am assuming `main` branch is a protection branch, and setting branch protectio
 1. Enable the following settings
     1. Require a pull request before merging
     1. Require approvals
+    1. Require status checks to pass before merging -> Prevent merging pull requests with failing build
+    1. Require branches to be up to date before merging
 
 See the following picture:
 ![alt text](pictures/actions-automerge-dependabot-prs01.png)
