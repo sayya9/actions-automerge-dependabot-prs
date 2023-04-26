@@ -39,3 +39,7 @@ To give Dependabot access to the private registries supported by GitHub, you sto
 See the following picture:
 ![alt text](pictures/actions-automerge-dependabot-prs04.png)
 
+## Enable auto-merge in the repository
++ In your repository navigation to Settings and scroll down the page to check the checkbox `Allow auto-merge`.
+![alt text](pictures/actions-automerge-dependabot-prs05.png)
+
