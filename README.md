@@ -23,3 +23,8 @@ See the following picture:
 
 See the following picture:
 ![alt text](pictures/actions-automerge-dependabot-prs02.png)
+
+## Store credentials for Dependabot to use
+To give Dependabot access to the private registries supported by GitHub, you store the registry’s access token or secret in the secret store for your repository or organization.
+
++ In your repository navigation to Settings > Secrets and variables > **Dependabot** > New repository secret
