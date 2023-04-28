@@ -15,10 +15,20 @@ I am assuming `main` branch is a protection branch, and setting branch protectio
 See the following picture:
 ![alt text](pictures/actions-automerge-dependabot-prs01.png)
 
-## Configure Dependabot version updates
+## Enable Dependabot security updates
+Dependabot security updates are automated pull requests that help you update dependencies with known vulnerabilities.
+
+1. In your repository navigation to Settings > Code security and analysis
+1. Under "Dependabot" enable the following settings
+    1. Dependabot alerts
+    1. Dependabot security updates
+
+## Enable Dependabot version updates
 We enable Dependabot to a repository by creating a directory called `.github` in the root directory and adding a file named `dependabot.yml` inside.
 
 Once we push `dependabot.yml` to Github, Dependabot will start the first scan of our repo and create the first pull requests to update dependencies, unless all the dependencies are already at their latest version.
+
+**Dependabot version updates are automated pull requests that keep your dependencies updated, even when they don't have any vulnerabilities.**
 
 Dependabot will also create their own branches and merge into the `default` branch such as main or dev.
 
