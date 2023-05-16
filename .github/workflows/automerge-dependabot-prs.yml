@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Extract branch name
         id: branch-name
-        uses: tj-actions/branch-names@v6
+        uses: tj-actions/branch-names@v7
 
       - name: Print branch name
         run: |
